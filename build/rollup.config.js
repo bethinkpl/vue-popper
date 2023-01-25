@@ -1,5 +1,5 @@
 import vue from 'rollup-plugin-vue';
-import css from "rollup-plugin-css-only";
+import css from 'rollup-plugin-css-only';
 import babel from 'rollup-plugin-babel';
 import {terser} from 'rollup-plugin-terser';
 import fs from 'fs';
