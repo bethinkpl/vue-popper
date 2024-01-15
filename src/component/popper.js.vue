@@ -409,7 +409,7 @@
       }
     },
 
-    destroyed() {
+    unmounted() {
       this.destroyPopper();
     }
   }

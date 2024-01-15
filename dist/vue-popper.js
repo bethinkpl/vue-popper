@@ -306,7 +306,7 @@
         return false;
       }
     },
-    destroyed: function destroyed() {
+    unmounted: function unmounted() {
       this.destroyPopper();
     }
   };
