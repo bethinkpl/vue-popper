@@ -11,8 +11,6 @@ export default {
   input: 'src/index.js',
   output: {
     file: isProduction ? 'dist/vue-popper.min.js' : 'dist/vue-popper.js',
-    format: 'umd',
-    name: 'VuePopper',
   },
   plugins: [
     css({output: isProduction ? function (styles) {
